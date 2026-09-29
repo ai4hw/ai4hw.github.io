@@ -126,7 +126,10 @@
 									class="aspect-square w-3xs rounded-2xl object-cover sm:w-xs"
 								/>
 								<p class="text-2xl font-bold">Fábio Passos</p>
-								<p class="text-muted-foreground">INESC-ID, Instituto Superior Técnico</p>
+								<div class="flex flex-col items-start gap-0">
+									<p class="text-muted-foreground">INESC-ID, Instituto Superior Técnico</p>
+									<p class="text-muted-foreground">Celera Semiconductor</p>
+								</div>
 							</div>
 						</Dialog.Trigger>
 						<Dialog.Content>
@@ -154,10 +157,10 @@
 						</Dialog.Content>
 					</Dialog.Root>
 
-					<Card.Root class="aspect-square min-w-3xs border border-accent sm:mb-16 sm:min-w-xs">
+					<Card.Root class="aspect-square min-w-3xs border border-accent sm:mb-22 sm:min-w-xs">
 						<Card.Content class="text-semibold text-3xl text-accent-foreground">TBA</Card.Content>
 					</Card.Root>
-					<Card.Root class="aspect-square min-w-3xs border border-accent sm:mb-16 sm:min-w-xs">
+					<Card.Root class="aspect-square min-w-3xs border border-accent sm:mb-22 sm:min-w-xs">
 						<Card.Content class="text-semibold text-3xl text-accent-foreground">TBA</Card.Content>
 					</Card.Root>
 				</div>
