@@ -75,13 +75,13 @@
 					</h3>
 				</div>
 				<div class="flex gap-4">
-					<Card.Root class="border border-accent p-4 sm:min-w-48 sm:p-8">
+					<Card.Root class="border border-accent p-4 sm:min-w-48 sm:p-6">
 						<Card.Content class="flex flex-col gap-2 p-0">
 							<p class="text-md font-bold sm:text-2xl">January 18</p>
 							<p class="text-xs text-muted-foreground sm:text-lg">14:00 - 17:00</p>
 						</Card.Content>
 					</Card.Root>
-					<Card.Root class="border border-accent p-4 sm:min-w-48 sm:p-8">
+					<Card.Root class="border border-accent p-4 sm:min-w-48 sm:p-6">
 						<Card.Content class="flex flex-col gap-2 p-0">
 							<p class="text-md font-bold sm:text-2xl">Etive Room</p>
 							<p class="text-xs text-muted-foreground sm:text-lg">Scottish Event Campus</p>
