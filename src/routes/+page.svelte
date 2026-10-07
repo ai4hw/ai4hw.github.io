@@ -27,7 +27,7 @@
 				<div class="flex items-center gap-6">
 					<a href="#about">About</a>
 					<a href="#speakers">Invited Speakers</a>
-					<a href="#cfp">Call for Papers</a>
+					<a href="#cfp">Call for Presentations</a>
 					<a href="#program">Program</a>
 					<a href="#organizers">Organizers</a>
 				</div>
@@ -58,7 +58,7 @@
 			>
 				<a href="#about" onclick={closeMenu}>About</a>
 				<a href="#speakers" onclick={closeMenu}>Invited Speakers</a>
-				<a href="#cfp" onclick={closeMenu}>Call for Papers</a>
+				<a href="#cfp" onclick={closeMenu}>Call for Presentations</a>
 				<a href="#program" onclick={closeMenu}>Program</a>
 				<a href="#organizers" onclick={closeMenu}>Organizers</a>
 				<Button href="https://www.hipeac.net/2027/glasgow/#/" target="_blank" onclick={closeMenu}>
@@ -92,7 +92,9 @@
 						</Card.Content>
 					</Card.Root>
 				</div>
-				<Button size="lg" href="#cfp" class="w-fit sm:py-6 sm:text-lg">Submit Manuscript</Button>
+				<Button size="lg" href="#cfp" class="w-fit sm:py-6 sm:text-lg"
+					>Call for Presentations</Button
+				>
 			</div>
 		</div>
 		<div id="about" class="border-b border-accent">
@@ -215,7 +217,7 @@
 			>
 				<ScrollTextIcon size={164} strokeWidth={1} class="self-center text-primary" />
 				<div class="flex max-w-3xl flex-col gap-5">
-					<h3 class="text-left text-2xl font-bold sm:text-4xl">Call for Papers</h3>
+					<h3 class="text-left text-2xl font-bold sm:text-4xl">Call for Presentations</h3>
 					<p class="text-base sm:text-justify sm:text-lg">
 						We welcome informal contributions from industry and academia, especially
 						<strong>work in progress</strong> and <strong>lessons learned</strong> from applying AI/ML
@@ -242,9 +244,9 @@
 							href="https://easychair.org/conferences/?conf=ai4hw2027"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="w-fit"
+							class="w-fit sm:text-lg"
 						>
-							Submit Manuscript
+							Submit
 						</Button>
 					</Card.Root>
 					<p class="text-sm text-muted-foreground sm:text-base">
