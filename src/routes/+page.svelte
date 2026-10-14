@@ -11,6 +11,7 @@
 	import icon from '$lib/assets/favicon.svg';
 	import fabioPassos from '$lib/assets/fabio_passos.jpg';
 	import christianPilato from '$lib/assets/christian_pilato.jpg';
+	import viharGeorgiev from '$lib/assets/vihar_georgiev.jpg';
 
 	let menuOpen = $state(false);
 	const closeMenu = () => (menuOpen = false);
@@ -164,6 +165,45 @@
 					</Dialog.Root>
 					<Dialog.Root>
 						<Dialog.Trigger>
+							<div id="vihar-georgiev" class="flex flex-col items-start gap-2 hover:cursor-pointer">
+								<img
+									src={viharGeorgiev}
+									alt="Vihar Georgiev"
+									class="aspect-square w-3xs rounded-2xl object-cover sm:w-xs"
+								/>
+								<p class="text-xl font-bold sm:text-2xl">Vihar Georgiev</p>
+								<div class="flex flex-col items-start gap-0">
+									<p class="text-sm text-muted-foreground sm:text-base">University of Glasgow</p>
+								</div>
+							</div>
+						</Dialog.Trigger>
+						<Dialog.Content>
+							<Dialog.Header class="px-4 py-8">
+								<Dialog.Description
+									class="max-h-[70dvh] scroll-fade overflow-y-auto text-sm sm:text-justify sm:text-base"
+								>
+									Vihar is a Professor of Nanoelectronics and the Leader of the DeepNano Group at
+									the University of Glasgow. Vihar is also a Visiting Professor at TU Vienna. He has
+									more than 10 years of experience in developing numerical solvers and machine
+									learning methods that are used for modelling and simulations of various
+									semiconductor devices, such as nanowire transistors, tunnelling FETs, biosensors,
+									current transport in inorganic molecules, Josephson's junctions, physical
+									unclonable functions and molecular flash memories. Vihar has participated in 12
+									European and UK projects in total. From 2018 until 2022 he held an EPSRC
+									Industrial Fellowship called Quantum Simulator for Entangled Electronics
+									(EP/S001131/1) and currently he is a co-PI of three more EPSRC projects
+									(EP/T023244/1, EP/V032627/1 and EP/V048341/1). Moreover, he is a PI of two EU
+									H2020 projects. The first one is a H2020-FetOPEN-2019 project called ElectroMed
+									and the second one is a MSCA-ITN-2019 project called DESIGN-EID where he is also a
+									project coordinator. Currently he is also a Pilar lead of EPSRC APRIL HUB. Since
+									his appointment as a Lecturer in 2015, he has secured funding of around £2M as a
+									PI and around £5.0M as a co-PI.
+								</Dialog.Description>
+							</Dialog.Header>
+						</Dialog.Content>
+					</Dialog.Root>
+					<Dialog.Root>
+						<Dialog.Trigger>
 							<div id="fabio-passos" class="flex flex-col items-start gap-2 hover:cursor-pointer">
 								<img
 									src={fabioPassos}
@@ -205,9 +245,6 @@
 							</Dialog.Header>
 						</Dialog.Content>
 					</Dialog.Root>
-					<Card.Root class="aspect-square min-w-3xs border border-accent sm:mb-22 sm:min-w-xs">
-						<Card.Content class="text-semibold text-3xl text-accent-foreground">TBA</Card.Content>
-					</Card.Root>
 				</div>
 			</div>
 		</div>
@@ -296,6 +333,40 @@
 						<Timeline.Content class="gap-4">
 							<div class="flex flex-col gap-1">
 								<p class="text-lg font-semibold sm:text-xl">
+									Multi-Scaled Simulations and Modelling of Novel Materials and Electronic Devices
+								</p>
+								<a href="#vihar-georgiev">
+									<p class="text-sm text-muted-foreground sm:text-base">Vihar Georgiev • TBA</p>
+								</a>
+							</div>
+							<p class="text-base sm:text-justify sm:text-lg">
+								Recently, interest in electronic, magnetic and optical materials based on inorganic
+								and organic nano-materials has increased significantly. Such new materials and novel
+								device architectures have the potential to bring the technology beyond the Moore
+								era. The most time-efficient and cost-effective approach to finding the best
+								materials and devices for specific applications is to perform modelling and
+								simulations. In this talk, I will present exciting research carried out by my
+								research group, DeepNano, in the fields of biosensors, molecular electronics,
+								superconducting qubits and the variability of nano-scale transistors to show the
+								importance of material modelling and device simulations not only in academia but
+								also in the industry. Our main aim is to establish a link between the material
+								properties, device architecture and performance using hierarchical, multi-scaled
+								simulation modelling. For example, to evaluate the performance of superconducting
+								qubits, we have developed a simulation flow that links the atomistic simulations
+								with a three-dimensional (3D) numerical device simulator. Also, to simulate the
+								electrical and optical response of biosensors, we have combined analytical and
+								machine learning (ML) methods in a unified simulation framework. In this way, the
+								computation flows and numerical methods developed in my research group can evaluate
+								the material properties and device performance of various heterogeneous devices and
+								systems.
+							</p>
+						</Timeline.Content>
+					</Timeline.Item>
+					<Timeline.Item>
+						<Timeline.Indicator></Timeline.Indicator>
+						<Timeline.Content class="gap-4">
+							<div class="flex flex-col gap-1">
+								<p class="text-lg font-semibold sm:text-xl">
 									AI/ML-Driven Design of RF and mm-Wave Circuits and Systems: Advances and Future
 									Trends
 								</p>
@@ -319,14 +390,6 @@
 								and highlights emerging trends toward end-to-end and autonomous design environments,
 								as well as the key challenges and opportunities ahead.
 							</p>
-						</Timeline.Content>
-					</Timeline.Item>
-					<Timeline.Item>
-						<Timeline.Indicator></Timeline.Indicator>
-						<Timeline.Content class="gap-4">
-							<div class="flex flex-col gap-1">
-								<p class="text-lg font-semibold sm:text-xl">TBA</p>
-							</div>
 						</Timeline.Content>
 					</Timeline.Item>
 				</Timeline.Root>
